@@ -9,7 +9,7 @@ class Employees implements IteratorAggregate {
 		$this->employees = new ArrayObject();
 	}
 
-	public function add (employee $employee) {
+	public function addEmployee (employee $employee) {
 		$this->employees[] = $employee;
 	}
 
